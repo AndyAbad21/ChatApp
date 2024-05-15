@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="container mt-5" *ngIf="messages">
+        <ul *ngFor="let message of messages" class="list-group">
+            <li id="container-sms" class="list-group-item">{{message}}</li>
+          </ul>
+    </div>
+    <form>
+        <input type="text" name="message" [(ngModel)]="message">
+        <button (click)="sendMessage()">Send</button>
+    </form>
+</div>

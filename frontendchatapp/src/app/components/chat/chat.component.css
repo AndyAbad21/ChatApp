@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input {
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+}
+form button {
+    border-radius: 0 10px 10px 0;
+    padding:10px;
+}
